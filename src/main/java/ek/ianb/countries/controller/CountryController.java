@@ -24,5 +24,6 @@ public class CountryController {
         List<Country> countries = countryService.findAllCountries();
         model.addAttribute("countries", countries);
         return "countries";
+
     }
 }
